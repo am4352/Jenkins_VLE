@@ -1,6 +1,6 @@
 
 package main
-
+// testing 
 import "testing"
 
 func TestMultiply(t *testing.T) {
