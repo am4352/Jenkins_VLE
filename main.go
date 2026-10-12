@@ -1,11 +1,15 @@
+
 package main
 
 import "fmt"
 
-func main() {
-    fmt.Println("Hello from Go CI with Jenkins!")
+func Multiply(a, b int) int {
+	return a * b
 }
 
-func Add(a, b int) int {
-    return a + b
+func main() {
+	fmt.Println("Go CI Pipeline - Jenkins")
+
+	result := Multiply(5, 4)
+	fmt.Println("Multiplication result:", result)
 }
